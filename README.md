@@ -84,38 +84,20 @@ mvn spring-boot:run
 
 
 
-**Project Structure**
-   StudentManagementSystem/
-├── .mvn/
+🗂️ **Project Structure**
+
+  StudentManagementSystem/
 ├── src/
-│ ├── main/
-│ │ ├── java/
-│ │ │ └── com/pauls/StudentManagementSystem/
-│ │ │ ├── controller/
-│ │ │ │ └── StudentController.java
-│ │ │ ├── entity/
-│ │ │ │ └── Student.java
-│ │ │ ├── repository/
-│ │ │ │ └── StudentRepository.java
-│ │ │ ├── service/
-│ │ │ │ ├── impl/
-│ │ │ │ │ └── StudentServiceImpl.java
-│ │ │ │ └── StudentService.java
-│ │ │ ├── OutputScreenshots/
-│ │ │ │ ├── After_Adding_Samantha_Student_List.png
-│ │ │ │ ├── Create_Student_Page_Added_Samantha.png
-│ │ │ │ ├── Student_List_After_Deleting_Samantha.png
-│ │ │ │ ├── Student_List_Page.png
-│ │ │ │ ├── Updating_Samantha_Gomes_to_James.png
-│ │ │ │ └── Updation_Reflecting_in_Student_List.png
-│ │ │ └── StudentManagementSystemApplication.java
-│ │ └── resources/
-│ │ ├── static/
-│ │ ├── templates/
-│ │ │ ├── create_student.html
-│ │ │ ├── edit_student.html
-│ │ │ └── students.html
-│ │ └── application.properties
+│   ├── main/
+│   │   ├── java/com/pauls/StudentManagementSystem/
+│   │   │   ├── controller/StudentController.java
+│   │   │   ├── entity/Student.java
+│   │   │   ├── repository/StudentRepository.java
+│   │   │   └── service/StudentService.java + impl/StudentServiceImpl.java
+│   │   └── resources/
+│   │       ├── templates/ (students.html, create_student.html, edit_student.html)
+│   │       └── application.properties
+└── pom.xml
 
 🔮 **Future Enhancements**
 
@@ -138,7 +120,7 @@ Feel free to fork the repo and submit a PR.
 
 📝 This project is licensed under the MIT License.
 
-🙏 **Acknowledgements**
+🙏 **Acknowledgement**
 
 This project was built as part of my Spring Boot learning journey.  
 I followed the excellent tutorial series by [Ramesh Fadatare (Java Guides)](https://www.youtube.com/c/JavaGuides) which provided the core structure and guidance.  
