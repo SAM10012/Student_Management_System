@@ -67,9 +67,21 @@ mvn spring-boot:run
 
 5. 📸 **Screenshots**
 
-   5.1. Student List Page
-   5.2. Create Student Page
-   5.3. Update Student Page
+#### 1. Student List Page  
+![Student List Page](src/main/java/com/pauls/StudentManagementSystem/OutputScreenshots/Student_List_Page.png)
+
+#### 2. Create Student Page  
+![Create Student Page](src/main/java/com/pauls/StudentManagementSystem/OutputScreenshots/Create_Student_Page_Added_Samantha.png)
+
+#### 3. Update Student Page  
+![Update Student Page](src/main/java/com/pauls/StudentManagementSystem/OutputScreenshots/Updating_Samantha_Gomes_to_James.png)
+
+#### 4. Student List After Update  
+![Updated Student List](src/main/java/com/pauls/StudentManagementSystem/OutputScreenshots/Updation_Reflecting_in_Student_List.png)
+
+#### 5. Student List After Deletion  
+![Student List After Deletion](src/main/java/com/pauls/StudentManagementSystem/OutputScreenshots/Student_List_After_Deleting_Samantha.png)
+
 
 **Project Structure**
    StudentManagementSystem/
